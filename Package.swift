@@ -10,7 +10,7 @@ let package = Package(
    ],
    targets: [
        .target(
-           name: "NeumorphismKit", dependencies: []
+           name: "NeumorphismKit", dependencies: [], path: "Sources"
        ),
        .testTarget(
             name: "NeumorphismKitTests", dependencies: ["NeumorphismKit"]
