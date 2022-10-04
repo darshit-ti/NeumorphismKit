@@ -9,7 +9,7 @@
 import UIKit
 
 @IBDesignable
-public class NeumorphismProgressView: UIProgressView {
+open class NeumorphismProgressView: UIProgressView {
 
     private var _baseColor: UIColor = NeumorphismAppearance.shared.baseColor
     private var _cornerRadius: CGFloat = 8.0

@@ -9,7 +9,7 @@
 import UIKit
 
 @IBDesignable
-public class NeumorphismTextField: UITextField {
+open class NeumorphismTextField: UITextField {
 
     private var _baseColor: UIColor = NeumorphismAppearance.shared.baseColor
     private var _cornerRadius: CGFloat = 16.0

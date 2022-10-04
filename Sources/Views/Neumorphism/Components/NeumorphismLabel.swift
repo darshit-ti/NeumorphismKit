@@ -9,7 +9,7 @@
 import UIKit
 
 @IBDesignable
-public class NeumorphismLabel: UILabel {
+open class NeumorphismLabel: UILabel {
 
     private var textDisplayableLabel: UILabel?
     private var _baseColor: UIColor = NeumorphismAppearance.shared.baseColor

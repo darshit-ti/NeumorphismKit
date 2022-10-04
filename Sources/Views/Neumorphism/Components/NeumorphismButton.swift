@@ -9,7 +9,7 @@
 import UIKit
 
 @IBDesignable
-public class NeumorphismButton: UIButton {
+open class NeumorphismButton: UIButton {
 
     private var neumorphismType: NeumorphismType = .convex {
         didSet {
